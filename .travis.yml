@@ -3,5 +3,5 @@ python:
   - 3.6
   - 2.7
 install:
-  - unittest
+  - pip install unittest
 script: python app.py
