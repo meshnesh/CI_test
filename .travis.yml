@@ -5,3 +5,5 @@ python:
 install:
   - pip install unittest2
 script: python3 app.py
+after_success:
+  - coveralls
